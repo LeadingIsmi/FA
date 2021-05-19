@@ -1,0 +1,13 @@
+100
+
+var1=allocate(10);
+
+var2=var1;
+
+var3=allocate(20);
+
+var1=var3;
+
+dealloc(var1);
+
+dealloc(var2)
